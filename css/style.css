@@ -1,0 +1,33 @@
+.top_bar {
+    height: 50px;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 0;
+}
+
+.new {
+    width: 40px;
+    height: 20px;
+    background-color: #00d7d2;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 20px;
+    float: left;
+}
+
+.top_bar_text {
+    font-size: 12px;
+    color: #5b6987;
+    font-weight: bold;
+    float: left;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.list-inline > li {
+    font-size: 12px;
+    color: #5b6987;
+    font-weight: bold;
+    cursor: pointer;
+}
