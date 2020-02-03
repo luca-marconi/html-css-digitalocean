@@ -64,7 +64,7 @@
 .navbar-right {
     margin-top: 10px;
 }
-main .container-fluid .row {
+.banner .container-fluid .row {
     background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
     background-size: cover;
 }
@@ -106,4 +106,23 @@ main .container-fluid .row {
     width: 50%;
     float: left;
     margin-bottom: 15px;
+}
+i {
+    margin: 0 15px;
+}
+.solution h4 {
+    color: #939eb5;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.solution img {
+    height: 75px;
+    padding: 0 20px;
+}
+.solution p {
+    font-size: 16px;
+    color: #0069ff;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px 0;
 }
