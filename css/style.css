@@ -1,3 +1,9 @@
+@media all and (max-width: 970px) {
+    .top_bar {
+        visibility: hidden;
+    }
+}
+
 .top_bar {
     height: 50px;
     border-bottom: 1px solid lightgrey;
