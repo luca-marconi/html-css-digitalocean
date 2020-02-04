@@ -355,3 +355,38 @@ i {
     border-radius: 10px;
     font-size: 18px;
 }
+footer {
+    background-color: #010e28;
+    padding: 50px 0;
+}
+footer h5 {
+    color: white;
+    font-size: 16px;
+}
+footer p {
+    color:#5f7f94;
+    font-size: 16px;
+}
+footer p:hover {
+    color: white;
+    cursor: pointer;
+}
+.copyright {
+    border-top: 1px solid #6795ae;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+.copyright img {
+    float: left;
+}
+.copyright p {
+    color:#5f7f94;
+    font-size: 16px;
+    float: left;
+    line-height: 40px;
+}
+.copyright i {
+    font-size: 25px;
+    color:#5f7f94;
+    margin: 0 5px;
+}
