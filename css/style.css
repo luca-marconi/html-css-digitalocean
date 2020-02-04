@@ -209,3 +209,37 @@ i {
     padding-top: 25px;
     font-size: 15px;
 }
+.business .container {
+    padding: 70px 0;
+}
+.business h2 {
+    font-size: 40px;
+    color: #031b4e;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.business h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #12214e;
+    padding: 15px 0;
+}
+.business p {
+    font-size: 15px;
+    color: #4e5f95;
+    margin-bottom: 20px;
+
+}
+.business i {
+    font-size: 40px;
+    color: #0069ff;
+    margin-left: 0px;
+}
+.business a {
+    font-weight: bold;
+    color: #0069ff;
+}
+.business a > i {
+    font-size: 12px;
+    margin-left: 10px;
+}
