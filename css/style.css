@@ -367,7 +367,7 @@ footer p {
     color:#5f7f94;
     font-size: 16px;
 }
-footer p:hover {
+.info p:hover {
     color: white;
     cursor: pointer;
 }
@@ -389,4 +389,8 @@ footer p:hover {
     font-size: 25px;
     color:#5f7f94;
     margin: 0 5px;
+}
+.copyright i:hover {
+    color: white;
+    cursor: pointer;
 }
