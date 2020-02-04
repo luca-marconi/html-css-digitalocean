@@ -283,5 +283,59 @@ i {
     border-bottom: 1px solid #354971;
     height: 25px;
     cursor: pointer;
+}
+.team {
+    background-color: #f3f5f9;
+    padding: 50px 0;
+}
 
+.team h2 {
+    font-size: 40px;
+    color: #031b4e;
+    font-weight: bold;
+}
+.team p {
+    font-size: 25px;
+    color: #4e5f83;
+    padding: 25px 0;
+}
+.team i {
+    color: #031b4e;
+    line-height: 350px;
+}
+.team i:hover {
+    color: #0069ff;
+    cursor: pointer;
+}
+.bg-white {
+    background-color: white;
+}
+.review {
+    color: #717fb9;
+}
+.review p {
+    padding: 5px 0;
+}
+.review p:nth-child(3) {
+    font-size: 15px;
+    font-weight: bold;
+    color: #717fb9;
+}
+.review p:nth-child(4) {
+    font-size: 15px;
+    color: #717fb9;
+}
+.review p:nth-child(5) {
+    font-size: 15px;
+    color: #0069ff;
+    font-weight: bold;
+}
+.review i {
+    font-size: 12px;
+    color: #0069ff;
+    line-height: 0px;
+    margin-left: 3px;
+}
+.scroll i {
+    line-height: 0px;
 }
