@@ -339,3 +339,19 @@ i {
 .scroll i {
     line-height: 0px;
 }
+.account {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-size: cover;
+    padding: 35px 0;
+}
+.account h2 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.account .btn-primary {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
