@@ -164,6 +164,8 @@ i {
 }
 .cards {
     height: 200px;
+    margin: 40px 0;
+
 }
 .box-process .cards i {
     color: #0069ff;
@@ -222,7 +224,6 @@ i {
     font-size: 20px;
     font-weight: bold;
     color: #12214e;
-    padding: 15px 0;
 }
 .business p {
     font-size: 15px;
@@ -242,4 +243,45 @@ i {
 .business a > i {
     font-size: 12px;
     margin-left: 10px;
+}
+.data-center {
+    background-color: #031b4e;
+    padding-bottom: 50px;
+}
+.data-center h2 {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    padding: 50px 0;
+}
+.server-row {
+    padding: 20px 0;
+    width: 100%;
+}
+.server {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    border-bottom: 1px solid #354971;
+    width: 15%;
+    height: 25px;
+}
+.city {
+    color:#789fb8;
+    font-size: 15px;
+    float: left;
+    border-bottom: 1px solid #354971;
+    width: 60%;
+    height: 25px;
+}
+.test {
+    color: #00c6b7;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    border-bottom: 1px solid #354971;
+    height: 25px;
+    cursor: pointer;
+
 }
