@@ -49,6 +49,7 @@
 .navbar-default .navbar-nav > li > a {
     color: black;
     font-size: 15px;
+    font-weight: bold;
 }
 .btn-primary {
     background-color: white;
@@ -81,7 +82,7 @@
     color: #ccdbff;
 }
 .container_form {
-    width: 75%;
+    width: 60%;
     background-color: white;
     border-radius: 5px;
     margin: 50px 100px;
@@ -110,6 +111,9 @@
 i {
     margin: 0 15px;
 }
+.solution {
+    background-color: #f3f5f9;
+}
 .solution h4 {
     color: #939eb5;
     font-weight: bold;
@@ -121,8 +125,16 @@ i {
 }
 .solution p {
     font-size: 16px;
-    color: #0069ff;
+}
+.process {
+    padding: 50px 0;
+}
+.process h2 {
+    font-size: 40px;
+    color: #031b4e;
     font-weight: bold;
-    cursor: pointer;
-    padding: 25px 0;
+}
+.process p {
+    font-size: 20px;
+    color: #4e5f83;
 }
