@@ -181,3 +181,31 @@ i {
     color: #122181;
     cursor: pointer;
 }
+.developers {
+    padding: 50px 0;
+    background-color: #f3f5f9;
+}
+.developers h2 {
+    font-size: 40px;
+    color: #031b4e;
+    font-weight: bold;
+}
+.developers p {
+    font-size: 20px;
+    color: #4e5f83;
+    padding-bottom: 25px;
+}
+.image i {
+    font-size: 40px;
+    line-height: 450px;
+    color: #acb4c6;
+}
+.scroll i {
+    font-size: 10px;
+    color: #0069ff;
+    height: 50px;
+}
+.scroll p {
+    padding-top: 25px;
+    font-size: 15px;
+}
