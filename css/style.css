@@ -208,10 +208,7 @@ i {
     .image i {
         line-height: 250px;
     }
-
 }
-
-
 .scroll i {
     font-size: 10px;
     color: #0069ff;
@@ -238,17 +235,17 @@ i {
 .business p {
     font-size: 15px;
     color: #4e5f95;
-    margin-bottom: 20px;
-
 }
 .business i {
     font-size: 40px;
     color: #0069ff;
     margin-left: 0px;
+    margin-top: 10px;
 }
 .business a {
     font-weight: bold;
     color: #0069ff;
+    margin-top: 10px;
 }
 .business a > i {
     font-size: 12px;
