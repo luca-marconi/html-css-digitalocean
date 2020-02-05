@@ -282,7 +282,7 @@ i {
     font-size: 15px;
     float: left;
     border-bottom: 1px solid #354971;
-    width: 270px;
+    width: 200px;
     height: 25px;
 }
 .test {
@@ -304,7 +304,7 @@ i {
         width: 50px;
     }
     .city {
-        width: 500px;
+        width: 250px;
     }
     .test {
         max-width: 110px;
