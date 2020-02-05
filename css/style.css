@@ -251,6 +251,7 @@ i {
     font-size: 12px;
     margin-left: 10px;
 }
+
 .data-center {
     background-color: #031b4e;
     padding-bottom: 50px;
@@ -262,16 +263,18 @@ i {
     padding: 50px 0;
 }
 .server-row {
-    padding: 20px 0;
-    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
 }
+
 .server {
     color: white;
     font-weight: bold;
     font-size: 15px;
     float: left;
     border-bottom: 1px solid #354971;
-    width: 15%;
+    width: 60px;
+    min-width: 50px;
     height: 25px;
 }
 .city {
@@ -279,7 +282,7 @@ i {
     font-size: 15px;
     float: left;
     border-bottom: 1px solid #354971;
-    width: 60%;
+    width: 270px;
     height: 25px;
 }
 .test {
@@ -289,7 +292,35 @@ i {
     float: left;
     border-bottom: 1px solid #354971;
     height: 25px;
+    width: 130px;
+    min-width: 50px;
     cursor: pointer;
+}
+.test .fa-chevron-right {
+    margin: 0 5px;
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .server {
+        width: 50px;
+    }
+    .city {
+        width: 500px;
+    }
+    .test {
+        max-width: 110px;
+    }
+}
+@media all and (max-width: 768px) {
+    .server {
+        width: 50px;
+    }
+    .city {
+        max-width: 250px;
+        min-width: 200px;
+    }
+    .test {
+        max-width: 110px;
+    }
 }
 .team {
     background-color: #f3f5f9;
