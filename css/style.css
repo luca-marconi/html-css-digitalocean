@@ -124,11 +124,11 @@ i {
     padding: 25px 0;
 }
 .solution img {
-    height: 75px;
-    padding: 0 20px;
+    max-height: 65px;
 }
+
 #splunk img {
-    height: 40px;
+    max-height: 30px;
     margin: 16px 0;
     object-fit: contain;
 }
@@ -167,9 +167,7 @@ i {
     color: #4e5f95;
 }
 .cards {
-    height: 200px;
-    margin: 40px 0;
-
+    max-height: 300px;
 }
 .box-process .cards i {
     color: #0069ff;
@@ -206,6 +204,14 @@ i {
     line-height: 450px;
     color: #acb4c6;
 }
+@media all and (max-width: 992px) {
+    .image i {
+        line-height: 250px;
+    }
+
+}
+
+
 .scroll i {
     font-size: 10px;
     color: #0069ff;
